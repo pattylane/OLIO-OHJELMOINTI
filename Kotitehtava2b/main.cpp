@@ -23,7 +23,7 @@ int main() {
     // Luodaan vektori autoille
     std::vector<Car> carList;
 
-    // Luodaan kolme Car-oliota
+    // Luodaan Seitsemän Car-oliota
     Car car1("Toyota", "Corolla", 2021);
     Car car2("Ford", "Mustang", 2020);
     Car car3("Tesla", "Model 3", 2022);
@@ -32,9 +32,6 @@ int main() {
     Car car6("Nissan", "Almera", 2025);
     Car car7("Ferrari", "GT 250", 1965);
 
-
-
-    // Lisätään oliot vektoriin
     carList.push_back(car1);
     carList.push_back(car2);
     carList.push_back(car3);
@@ -43,8 +40,8 @@ int main() {
     carList.push_back(car6);
     carList.push_back(car7);
 
-    // Tulostetaan toisen alkion tiedot
-    std::cout << "Toine listan autoista:" << std::endl;
+    // Tulostetaan toisen ja neljännen alkion tiedot
+    std::cout << "Toinen listan autoista:" << std::endl;
     carList[1].printData();
     std::cout << "Neljas listan autoista:" << std::endl;
     carList[1].printData();
