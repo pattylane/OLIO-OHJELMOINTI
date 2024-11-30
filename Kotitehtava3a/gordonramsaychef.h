@@ -3,7 +3,7 @@
 
 #include "chef.h"
 
-// Aliluokka GordonRamsayChef
+
 class GordonRamsayChef : public Chef {
 public:
     GordonRamsayChef() : Chef("Gordon Ramsay") {
@@ -23,4 +23,4 @@ public:
     }
 };
 
-#endif // GORDONRAMSAYCHEF_H
+#endif

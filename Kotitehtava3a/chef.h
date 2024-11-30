@@ -4,7 +4,7 @@
 #include <string>
 #include <iostream>
 
-// Pohjaluokka Chef
+
 class Chef {
 public:
     explicit Chef(const std::string &name) : chefName(name) {
@@ -15,7 +15,7 @@ public:
         std::cout << "Chef " << chefName << " destruktori" << std::endl;
     }
 
-    // Virtuaaliset jäsenfunktiot
+
     virtual void makeSalad() {
         std::cout << "Chef " << chefName << " makes salad" << std::endl;
     }
@@ -25,7 +25,7 @@ public:
     }
 
 protected:
-    std::string chefName; // Kokin nimi
+    std::string chefName;
 };
 
-#endif // CHEF_H
+#endif
